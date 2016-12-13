@@ -2,17 +2,12 @@
 body{background-color: #edeff0;font-family: "Î¢ÈíÑÅºÚ";}
 p { font-size: 13px; color: #888;}
 ul,li{list-style: none;}
-/*------------»ÒÉ«ÐéÏß-----------*/
 .dotted-black-up {background: url("../images/headbg.png") repeat-x scroll 0 0 transparent;}
-/*-----------°×É«ÐéÏß----------*/
 .bg-white{background: url("../images/bg-white.png") repeat-x scroll 0 0 transparent;}
 .bg-blue {background: url('../images/bg-black.png') no-repeat scroll center top #35383f;}
-/*----------¶¥²¿ºáÏß----------*/
 #topline {position: absolute; top: 0; left: 0; right: 0; height: 4px;}
 #topline-left {position: absolute; left: 0; right: 50%; height: 4px; background-color: #d8230e;}
 #topline-right {position: absolute; left: 50%; right: 0; height: 4px; background-color: #35383f;}
-
-
 /*-----------µ¼º½À¸--------*/
 #navbar {
     background: url('../images/bg-navbar.png') repeat scroll 0 0 transparent;
@@ -22,9 +17,6 @@ ul,li{list-style: none;}
     padding-bottom: 10px;
 }
 #brand {font-size: 45px; color: #35383f;}
-
-
-
 
 /*----------Í·ÏñÀ¸--------------*/
 #home {
@@ -61,14 +53,13 @@ ul,li{list-style: none;}
 .circle-white {
     padding: 10px 30px 5px 30px;
     background-color: #fff;
-    width: 250px; height:250px;
+    width: 240px; height:240px;
     border-radius:50%;
     margin-top: 3%;
     border: 5px solid #A61B14;
     overflow: hidden;
     text-align: center;
-    box-shadow:5px 5px 5px #000;
-
+    box-shadow:3px 3px 3px #000;
 }
 .circle-white:hover {
     border: 5px solid #35383F;
@@ -290,36 +281,12 @@ figure.box-shadow:hover p a {
 }
 .nub{
     padding-top: 30px;
-
 }
 
-.nub ul li{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 5px solid #282A2B;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    box-shadow:0px 0px 5px 5px #000;
-    background: #282a2b;
-    margin-right: 5px;
-    margin-top: 5px;
+
+.nub li, .nub a{
     display: inline-block;
-}
-.nub a:nth-child(1){
-    margin-top: 60px;
-}
-.nub ul{
-    margin-top: 45px;
-}
-.nub a{
-    display: inline-block;
-    padding: 8px;
     width: 250px;
-    height:100px;
     color: #ffffff;
     font-size: 1.8rem;
 }
@@ -329,14 +296,16 @@ figure.box-shadow:hover p a {
     height: 250px;
     border-top: 5px solid #ffffff;
     background: #ffffff;
-    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
     text-align: center;
 }
-.nub ul:nth-child(2) li{
-    width: 35px;
-    height: 35px;
-    font-size: 15px;
-    line-height: 22px;
+.nub ul{
+    margin-top: 8%;
+}
+.nub ul li{
+    width: 250px;
+    padding: 10px 10px;
+    display: inline-block;
 }
 
 
