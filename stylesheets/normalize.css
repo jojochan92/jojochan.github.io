@@ -113,14 +113,15 @@ ul,li{list-style: none;}
 }
 .grid figure img {
     position: relative;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .grid figure figcaption {
     color: #fff;
     text-transform: uppercase;
-    font-size:2vmin;
+    font-size:6vmin;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    overflow: hidden;
 
 }
 .grid figure figcaption::before,
@@ -145,16 +146,7 @@ ul,li{list-style: none;}
 .grid figure h3 {
     word-spacing: -0.10em;
     font-weight: 300;
-}
-
-.grid figure h3,
-.grid figure p {
-    margin: 0;
-}
-
-.grid figure p {
-    letter-spacing: 1px;
-    font-size: 68.5%;
+    font-size: 1.5em;
 }
 
 figure.box-shadow {
@@ -185,13 +177,14 @@ figure.box-shadow:hover figcaption::before {
     transform: scale3d(1,1,1);
 }
 figure.box-shadow h3 {
-    margin-top: 1em;
+    margin-top: 0.5em;
     -webkit-transition: transform 0.35s;
     transition: transform 0.35s;
     -webkit-transform: translate3d(0,40px,0);
     transform: translate3d(0,40px,0);
 }
 figure.box-shadow:hover h3 {
+    display: none;
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
@@ -220,6 +213,9 @@ figure.box-shadow p a:nth-child(3) {
 }
 
 figure.box-shadow:hover p a {
+    margin-top: 10%;
+    overflow: hidden;
+    font-size: 2.5em;
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
